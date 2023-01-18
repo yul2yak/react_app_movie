@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Movie from "../components/Movie";
 import styles from "./Home.module.css";
 
+// https://www.themoviedb.org/documentation/api
 function Home() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
